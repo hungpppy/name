@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'SF Pro Display Medium';
+    src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'SF Pro Display Bold';
+    src: url(fonts/SFPRODISPLAYBOLD.OTF);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+    font-weight: 400;
+}
+
+
+body{ 
+    background-image: url(./gdgf/bg\ image.png);
+     background-position: center;
+     background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+main{
+    padding-top: 58px;
+    max-width: 414px;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+h2{
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 41px;
+/* identical to box height */
+text-align: center;
+color: #FFFFFF;
+}
+.container{
+    background:linear-gradient(157.44deg, rgba(255, 255, 255, 0.6) 0.84%, rgba(255, 255, 255, 0.6) 0.85%, rgba(255, 255, 255, 0.15) 100%);
+    backdrop-filter: blur(22.5px);
+    border-radius:61px 61px 0px 0px;
+    padding: 25px 36px 0px 36px;
+    z-index: 2;
+    box-sizing: border-box;
+    -webkit-border-radius:61px 61px 0px 0px;
+    -moz-border-radius:61px 61px 0px 0px;
+    -ms-border-radius:61px 61px 0px 0px;
+    -o-border-radius:61px 61px 0px 0px;
+}
+.title{
+    margin-bottom:38px;
+}
+.title h1{
+    font-family: 'SF Pro Display Bold';
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.control-group{
+    position: relative; 
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.control_title{
+    margin-bottom: 9px;
+    position: absolute;
+    padding-top: 18px;
+    padding-left: 14px;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF99;
+}
+.form-control_title{
+    margin-bottom: 9px;
+    position: absolute;
+    padding-top: 18px;
+    padding-left: 14px;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 11px;
+    color: #FFFFFF99;
+}
+form::placeholder{
+    color: #110b0b;
+}
+.control_title{
+     margin-bottom: 9px;
+    position: absolute;
+    padding-top: 18px;
+    padding-left: 14px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+    color: #29242499;
+}
+.control-group{
+    margin-bottom: 18px;
+    height:auto;
+}
+
+.form-control{
+    cursor: pointer;
+    height: 74px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 33px 14px 12px ;
+    box-sizing: border-box;
+    border-radius: 14px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(85, 80, 80, 0.2);
+    color: #FFFFFF;
+
+}
+.form-control:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.control-group img{
+    cursor: pointer;
+    right: 0;
+    top: calc(50% - 5px);
+    right: 4.39%;
+    position: absolute;
+}
+.btn-submit{
+    cursor: pointer;
+    height: 74px;
+    width: 100%;
+    background: #151616;
+    box-shadow: 0px 28px 40px rgba(14, 18, 19, 0.35);
+    border-radius: 14px;
+    border: 0;
+}
+.btn-content{
+    font-family: 'SF Pro Display Bold';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 2px;
+    color: #FFFFFF;
+}
+.btn-submit:hover{
+    background-color: rgb(26, 29, 29);
+}
+.other-submit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.btn_other-submit{
+   width: 144px;
+height: 28px;
+
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 28px;
+/* identical to box height, or 165% */
+display: flex;
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}.btn_other-submit > span {
+    font-family: 'SF Pro Display Regular';
+}
+.btn_other-submit:first-child{
+    margin-right: 8px;
+}
+.btn_other-submit:first-child{
+    margin-right: 8px;
+}
+.btn_other-submit span{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin-left: 12px;
+}
+.seperator{
+
+    font-family: 'SF Pro Display Regular';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 114px;
+}
+.seperator span{
+    margin: 0px 36px;
+}
+.seperator::after , .seperator::before{
+    content: "";
+    height: 0;
+    width: 135px;
+    border-top: 1px dashed rgba(134, 117, 117, 0.4);
+}
+.create-user>span ,.create-user>a{
+    font-family: 'SF Pro Display Regular';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.create-user a:hover{
+    color: blanchedalmond;
+}
+@media screen and (min-width: 415px) {
+    .create-user{
+        backdrop-filter: none;
+    }
+}
+@media screen and (max-width: 365px) {
+    main{
+        max-width: 100%;
+    }
+}
